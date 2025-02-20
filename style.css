@@ -1,0 +1,44 @@
+/* Pomera ceo div sa naslovom i slikom */
+.margine {
+    margin-left: 50px;  /* Pomeri 50px s leve strane */
+    margin-top: 50px;   /* Pomeri 50px od vrha */
+}
+
+/* Spoljni žuti okvir */
+.slika-okvir {
+    display: inline-block; /* Održava okvir veličine slike */
+    background-color: yellow;  /* Žuta pozadina */
+    padding: 25px;/* Razmak između žutog okvira i belog okvira */
+}
+
+/* Unutrašnji beli okvir */
+.unutarnji-okvir {
+    background-color: white;  /* Beli okvir */
+    padding: 10px;  /* Debljina belog okvira */
+}
+
+/* Slika */
+.unutarnji-okvir img {
+    display: block;  /* Uklanja dodatni prostor ispod slike */
+    width: 500px;  /* Podešava širinu slike */
+}
+.aqua-div {
+    background-color: aqua;
+    margin-right: 50%;
+}
+hr {
+    border: none;       /* Uklanja defaultnu marginu */
+    height: 1px;        /* Debljina crte */
+    background-color: black; /* Crna crta */
+    width: 100%;        /* Proteže se preko cijelog ekrana */
+}
+.highlight {
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.margins {
+    margin: 20px; /* Dodaje razmak oko sadržaja */
+    
+}
